@@ -2,9 +2,10 @@ import streamlit as st
 import pandas as pd
 import pickle
 from datetime import datetime
+import joblit
 
 # Load model dari file pickle
-model = pickle.load(open('random_forest_model_new.pkl', 'rb'))
+model = pickle.load(open('random_forest_model_joblit.pkl', 'rb'))
 
 st.title("Prediksi Gejala Long COVID")
 st.write("Isi data pasien berikut untuk memprediksi kemungkinan gejala Long COVID.")
