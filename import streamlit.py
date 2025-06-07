@@ -4,7 +4,7 @@ import pickle
 from datetime import datetime
 
 # Load model dari file pickle
-model = pickle.load(open('random_forest_model.pkl', 'rb'))
+model = pickle.load(open('random_forest_model_new.pkl', 'rb'))
 
 st.title("Prediksi Gejala Long COVID")
 st.write("Isi data pasien berikut untuk memprediksi kemungkinan gejala Long COVID.")
